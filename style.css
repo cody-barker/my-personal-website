@@ -6,6 +6,14 @@
     min-height: 100%;
   }
 
+  #mainVideos {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
 header {
     position: relative;
     top: 20px;
@@ -134,12 +142,12 @@ p {
 }
 
 h2 {
-    position: sticky;
-    display: grid;
+    position: relative;
+    display: inline-grid;
     color: #fff;
-    font-size: 100px;
-    text-align: left;
-    top: 155px;
+    font-size: 90px;
+    left: 50%;
+    top: 150px;
 }
 
 a:hover {
@@ -149,4 +157,15 @@ a:hover {
 a {
     color: #fff;
     text-decoration: none;
+}
+
+#landing-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    padding: 10px;
+
+    
 }
