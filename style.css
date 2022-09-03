@@ -1,3 +1,11 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
 header {
     position: relative;
     top: 20px;
@@ -13,13 +21,19 @@ nav {
 }
 
 body {
-    color:#0a3504
+    color:#0a3504;
+    position: fixed;
+    top: auto;
+    left: auto;
+    max-width: 50%;
+    float: left;
+    margin: 1em;
 }
 
 h1 {
     color: #0a3504;
     font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Helvetica, sans-serif;
     position: fixed;
     top: 15%;
     left: 15%;
@@ -32,7 +46,6 @@ ol {
     display: inline-block;
     margin: 10;
     padding: 10;
-    overflow: hidden;
    
 }
 
@@ -40,7 +53,6 @@ li {
     display: inline-block;
     font-weight: 500;
     margin-right: 0px;
-    margin-left:
 }
 
 li a {
@@ -59,13 +71,15 @@ li :visited {
 
 main {
     background: #ffffff;
+    display: block;
     text-align: left;
     font-family: arial, Helvetica, sans-serif;
     position: fixed;
     top: 25%;
     left: 15%;
     right: 15%;
-    bottom: 20%
+    padding-bottom: 5%;
+    overflow-y: auto;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -87,4 +101,52 @@ li a:hover {
     margin: 1em;
 }
 
+p {
+    letter-spacing: 0.25;
+}
 
+#growingImage1 {
+    max-width: 50%;
+    display: block;
+    margin: 1em;
+    position: relative;
+}
+
+#harvesting1 {
+    max-width: 50%;
+    display: block;
+    margin: 1em;
+    position: relative;
+}
+
+#harvesting2 {
+    max-width: 50%;
+    display: block;
+    margin: 1em;
+    position: relative;
+}
+
+#aboutImage {
+    max-width: 100%;
+    display: block;
+    margin: 1em;
+    position: relative;  
+}
+
+h2 {
+    position: sticky;
+    display: grid;
+    color: #fff;
+    font-size: 100px;
+    text-align: left;
+    top: 155px;
+}
+
+a:hover {
+    color: rgba(255, 166, 0, 0.692);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
