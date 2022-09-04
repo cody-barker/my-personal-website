@@ -176,17 +176,17 @@ a {
     text-decoration: none;
 }
 
-#front {
-    position: absolute;
-    left: 500px;
-    top: 350px;;
-    transform: translate(-50%, -50%);
+.front {
+    position: static;
+    display: inline;
+    left: 100px;
+    top: 350px;
     border: 5px solid #fff;
     padding: 10px;
 }
 
 #landing-text-box {
-    position: absolute;
+    position: static;
     left: 300px;
     right: 300px;
 }
@@ -268,4 +268,12 @@ a {
     content: "";
     clear: both;
     display: table;
+  }
+
+  .index {
+    position: fixed;
+    left: 400px;
+    top: 30px;
+    text-align: center;
+    
   }
